@@ -1,0 +1,70 @@
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+Host frank
+    HostName frank.eecs.qmul.ac.uk
+    User abc123
+    IdentityFile C:\Users\#USERNAME#\.ssh/id_rsa
+Host epstein
+    HostName epstein.eecs.qmul.ac.uk
+    User abc123
+    IdentityFile C:\Users\#USERNAME#\.ssh/id_rsa
+    ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -q -W %h:%p frank
+Host hepworth
+    HostName hepworth.eecs.qmul.ac.uk
+    User abc123
+    IdentityFile C:\Users\#USERNAME#\.ssh/id_rsa
+    ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -q -W %h:%p frank
+Host kapoor
+    HostName kapoor.eecs.qmul.ac.uk
+    User abc123
+    IdentityFile C:\Users\#USERNAME#\.ssh/id_rsa
+    ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -q -W %h:%p frank
+Host sandle
+    HostName sandle.eecs.qmul.ac.uk
+    User abc123
+    IdentityFile C:\Users\#USERNAME#\.ssh/id_rsa
+    ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -q -W %h:%p frank
+Host buxton 
+    HostName buxton.eecs.qmul.ac.uk
+    User abc123
+    IdentityFile C:\Users\#USERNAME#\.ssh/id_rsa
+    ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -q -W %h:%p frank
+Host braintree
+    HostName braintree.eecs.qmul.ac.uk
+    User abc123
+    IdentityFile C:\Users\#USERNAME#\.ssh/id_rsa
+    ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -q -W %h:%p frank
+Host whitby
+    HostName whitby.eecs.qmul.ac.uk
+    User abc123
+    IdentityFile C:\Users\#USERNAME#\.ssh/id_rsa
+    ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -q -W %h:%p frank
+Host bibury
+    HostName bibury.eecs.qmul.ac.uk
+    User abc123
+    IdentityFile C:\Users\#USERNAME#\.ssh/id_rsa
+    ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -q -W %h:%p frank
+Host gormley
+    HostName gormley.eecs.qmul.ac.uk
+    User abc123
+    IdentityFile C:\Users\#USERNAME#\.ssh/id_rsa
+    ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -q -W %h:%p frank
+Host bath
+    HostName bath.eecs.qmul.ac.uk
+    User abc123
+    IdentityFile C:\Users\#USERNAME#\.ssh/id_rsa
+    ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -q -W %h:%p frank
+Host dover
+    HostName dover.eecs.qmul.ac.uk
+    User abc123
+    IdentityFile C:\Users\#USERNAME#\.ssh/id_rsa
+    ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -q -W %h:%p frank
+Host exeter
+    HostName exeter.eecs.qmul.ac.uk
+    User abc123
+    IdentityFile C:\Users\#USERNAME#\.ssh/id_rsa
+    ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -q -W %h:%p frank
+Host dorchester
+    HostName dorchester.eecs.qmul.ac.uk
+    User abc123
+    IdentityFile C:\Users\#USERNAME#\.ssh/id_rsa
+    ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -q -W %h:%p frank
